@@ -13,7 +13,13 @@ This is a TypeScript command line application that builds and uses cars, trucks,
 - [Resources](#resources)
 
 ## Installation Instructions
-These are the installation instructions...
+**Node.js:** Ensure you have Node.js installed (latest release).
+**npm:** Make sure you have npm installed via node.js.
+1. Download repository
+2. In terminal, run `npm install inquirer typescript`
+3. In terminal, navigate to src/
+4. In terminal, run `npx tsc`
+5. In terminal, run `npm run start`
 
 ## Usage Information
 [![Video Demo](https://cdn.loom.com/sessions/thumbnails/4668dc53a4594378881be2974f72f3a5-d8d01b8ebb8f8a91-full-play.gif)](https://www.loom.com/embed/4668dc53a4594378881be2974f72f3a5?sid=435420ad-56bf-461b-afcd-db9e9aa52a69)
@@ -46,7 +52,14 @@ THEN I can perform additional actions until I choose to exit
 This application is not accepting contributions at this time.
 
 ## Testing Instructions
-These are the testing instructions...
+To use the application, download repository. In command line, use `npm run start` to initiate. 
+
+Example test case:
+- Initiate application via `npm run start`
+- Choose "Select an existing vehcile"
+- Choose Ford F-150
+- Choose Print Details
+- Expected Result: application will print vehicle details and display list of actions. The details show should list the following data: Vehicle Started, Vehicle Current Speed, VIN, Color, Make, Model, Year, Weight, Top Speed, Towing Capacity, Wheel 1, Wheel 2, Wheel 3, Wheel 4.
 
 ## Questions
 For additional questions an instructions, please contact me at elli.mckinley@gmail.com.
