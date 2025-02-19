@@ -13,6 +13,7 @@ This is a TypeScript command line application that builds and uses cars, trucks,
 - [Resources](#resources)
 
 ## Installation Instructions
+Prerequesite:
 - **Node.js:** Ensure you have Node.js installed (latest release).
 - **npm:** Make sure you have npm installed via node.js.
 
