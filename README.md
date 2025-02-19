@@ -13,8 +13,9 @@ This is a TypeScript command line application that builds and uses cars, trucks,
 - [Resources](#resources)
 
 ## Installation Instructions
-**Node.js:** Ensure you have Node.js installed (latest release).
-**npm:** Make sure you have npm installed via node.js.
+- **Node.js:** Ensure you have Node.js installed (latest release).
+- **npm:** Make sure you have npm installed via node.js.
+
 1. Download repository
 2. In terminal, run `npm install inquirer typescript`
 3. In terminal, navigate to src/
