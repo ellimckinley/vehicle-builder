@@ -4,12 +4,7 @@ import Wheel from './Wheel.js';
 // TODO: The Motorbike class should extend the Vehicle class
 class Motorbike extends Vehicle {
     // TODO: Create a constructor that accepts the properties of the Motorbike class
-    constructor(vin, color, make, model, year, weight, topSpeed, 
-    // frontWheelDiameter: number,
-    // frontWheelBrand: string,
-    // rearWheelDiameter: number,
-    // rearWheelBrand: string,
-    wheels) {
+    constructor(vin, color, make, model, year, weight, topSpeed, wheels) {
         // TODO: The constructor should call the constructor of the parent class, Vehicle
         super();
         // TODO: The constructor should initialize the properties of the Motorbike class
@@ -20,10 +15,6 @@ class Motorbike extends Vehicle {
         this.year = year;
         this.weight = weight;
         this.topSpeed = topSpeed;
-        // this.frontWheelDiameter = frontWheelDiameter;
-        // this.frontWheelBrand = frontWheelBrand;
-        // this.rearWheelDiameter = rearWheelDiameter;
-        // this.rearWheelBrand = rearWheelBrand;
         // TODO: The constructor should check if the wheels array has 2 elements and 
         // create 2 new default Wheel objects if it does not
         // Otherwise, use the provided wheels array
