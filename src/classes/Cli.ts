@@ -374,8 +374,11 @@ class Cli {
         } else if (answers.action === 'Tow') {
           if (selectedVehicle instanceof Truck) {
             this.findVehicleToTow(selectedVehicle);
-            return;
+          } else if (selectedVehicle instanceof Car || selectedVehicle instanceof Motorbike) {
+            console.log(`This vehicle cannot tow`);
+            this.performActions();
           }
+          return;
         // TODO: add statements to perform the wheelie action only if the selected vehicle is a motorbike
       } else if (answers.action === 'Wheelie') {
         if (selectedVehicle instanceof Motorbike) {
@@ -397,6 +400,8 @@ class Cli {
         }
       });
   }
+
+
 
   // method to start the cli
   startCli(): void {
